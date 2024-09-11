@@ -1,7 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 import book from '../images/book.jpg';
 
-
 function Navbar() {
     const navigate = useNavigate()
     function toggleNav() {

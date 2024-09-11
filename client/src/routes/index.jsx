@@ -31,23 +31,6 @@ function Index() {
                     <img src={book5} alt='Book5 Image'/>
                 </div>
             </Carousel>
-            {/* <div className='books'>
-                <div className='book'>
-                    <img src={book1} alt='Book1 Image'/>
-                </div>
-                <div className='book'>
-                    <img src={book2} alt='Book2 Image'/>
-                </div>
-                <div className='book'>
-                    <img src={book3} alt='Book3 Image'/>
-                </div>
-                <div className='book'>
-                    <img src={book4} alt='Book4 Image'/>
-                </div>
-                <div className='book'>
-                    <img src={book5} alt='Book5 Image'/>
-                </div>
-            </div> */}
         </div>
     )
 }
