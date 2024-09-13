@@ -118,6 +118,17 @@ nav {
   transform: rotate(45deg) translate(-5px,-5px);
 }
 
+.hero {
+  text-align: center;
+  padding: 15px;
+}
+
+.auth-img {
+  width: "100px";
+  height: "100px";
+  border-radius: 50%;
+}
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

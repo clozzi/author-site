@@ -11,9 +11,11 @@ function Index() {
     
 
     return (
-        <div>
-            <img src={author} alt="Generic Author" style={{width: "100px", height: "100px"}}/>
-            <p><i>I am a motivational quote intended to inspire the reader.</i></p>
+        <div className='index-route'>
+            <div className='hero'>
+                <img src={author} alt="Generic Author" className="auth-img" />
+                <p><i>Lawyer | Father | Husband | Writer</i></p>
+            </div>
             <Carousel>
                 <div className='book'>
                     <img src={book1} alt='Book1 Image'/>
