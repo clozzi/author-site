@@ -129,6 +129,14 @@ nav {
   border-radius: 50%;
 }
 
+.about {
+  padding: 15px;
+}
+
+.title-section {
+  padding: 15px;
+}
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
