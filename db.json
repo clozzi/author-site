@@ -1,0 +1,14 @@
+{
+    "books": [
+        {
+            "id": 1,
+            "title": "Tales of the Bacchae",
+            "image": "client/src/images/tales_of_the_bacchae.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Book One",
+            "image": "client/src/images/book.jpg"
+        }
+    ]
+}
