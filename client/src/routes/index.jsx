@@ -6,6 +6,7 @@ import book2 from '../images/book2.webp';
 import book3 from '../images/book3.jpg';
 import book4 from '../images/book4.jpg';
 import book5 from '../images/book5.jpg';
+import tales from '../images/tales_of_the_bacchae.jpg';
 
 function Index() {
     
@@ -17,6 +18,9 @@ function Index() {
                 <p><i>Lawyer | Father | Husband | Writer</i></p>
             </div>
             <Carousel>
+                <div className='book'>
+                    <img src={tales} alt='Tales of the Bacchae Cover'/>
+                </div>
                 <div className='book'>
                     <img src={book1} alt='Book1 Image'/>
                 </div>
