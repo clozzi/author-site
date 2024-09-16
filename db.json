@@ -3,12 +3,12 @@
         {
             "id": 1,
             "title": "Tales of the Bacchae",
-            "image": "client/src/images/tales_of_the_bacchae.jpg"
+            "image": "/assets/images/author.jpg"
         },
         {
             "id": 2,
             "title": "Book One",
-            "image": "client/src/images/book.jpg"
+            "image": "/assets/images/book.jpg"
         }
     ]
 }
