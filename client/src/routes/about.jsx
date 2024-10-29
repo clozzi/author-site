@@ -27,9 +27,6 @@ function About() {
             Need more info...Need more info...Need more info...Need more info...
             Need more info...Need more info...Need more info...Need more info...
             </p>
-            <BookCard />
-            <BookCard />
-            <BookCard />
         </div>
     )
 }

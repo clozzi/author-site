@@ -7,6 +7,7 @@ import book3 from '../images/book3.jpg';
 import book4 from '../images/book4.jpg';
 import book5 from '../images/book5.jpg';
 import tales from '../images/tales_of_the_bacchae.jpg';
+import BookCarousel from '../components/book-carousel';
 
 function Index() {
     
@@ -17,26 +18,7 @@ function Index() {
                 <img src={author} alt="Generic Author" className="auth-img" />
                 <p><i>Lawyer | Father | Husband | Writer</i></p>
             </div>
-            <Carousel>
-                <div className='book'>
-                    <img src={tales} alt='Tales of the Bacchae Cover'/>
-                </div>
-                <div className='book'>
-                    <img src={book1} alt='Book1 Image'/>
-                </div>
-                <div className='book'>
-                    <img src={book2} alt='Book2 Image'/>
-                </div>
-                <div className='book'>
-                    <img src={book3} alt='Book3 Image'/>
-                </div>
-                <div className='book'>
-                    <img src={book4} alt='Book4 Image'/>
-                </div>
-                <div className='book'>
-                    <img src={book5} alt='Book5 Image'/>
-                </div>
-            </Carousel>
+            <BookCarousel />
         </div>
     )
 }
